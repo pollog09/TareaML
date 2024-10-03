@@ -35,7 +35,7 @@ Antes de implementar cualquier modelo, es importante explorar el conjunto de dat
 
 El conjunto de datos Iris contiene cuatro características numéricas. A continuación se presenta un resumen estadístico de las mismas:
 
-![[Pasted image 20241003135505.png]]
+![alt text](<res/Pasted image 20241003135505.png>)
 
 Como podemos observar, las características _PetalLengthCm_ y _PetalWidthCm_ tienen una mayor variabilidad en comparación con las demás, lo cual sugiere que pueden ser claves para la clasificación de las especies.
 
@@ -43,15 +43,16 @@ Como podemos observar, las características _PetalLengthCm_ y _PetalWidthCm_ tie
 
 Para visualizar mejor la distribución de las características entre las tres especies de Iris, se crearon gráficos de dispersión y pares (pairplots). Estos gráficos permiten observar cómo se separan las especies en función de las diferentes combinaciones de características. Los resultados mostraron que las especies _Iris-setosa_ están claramente separadas del resto cuando se analizan las variables relacionadas con los pétalos. Sin embargo, las especies _Iris-versicolor_ e _Iris-virginica_ muestran cierta superposición, lo que podría suponer un desafío para el modelo de clasificación.
 
-![[Pasted image 20241003135538.png]]
+![alt text](<res/Pasted image 20241003135538.png>)
 
-![[Pasted image 20241003135550.png]]
+![alt text](<res/Pasted image 20241003135550.png>)
+
 
 ### 3. Matriz de Correlación
 
 Se calculó la correlación entre las variables y se visualizó mediante un **mapa de calor**. 
 
-![[Pasted image 20241003135700.png]]
+![alt text](<res/Pasted image 20241003135700.png>)
 
 La matriz de correlación revela que:
 
@@ -65,7 +66,7 @@ Este análisis sugiere que las características relacionadas con los pétalos so
 
 Para este problema de clasificación se utilizó el algoritmo **K-Nearest Neighbors (KNN)**. KNN es un método no paramétrico que utiliza la distancia entre los puntos de datos para hacer predicciones. En este caso, el modelo busca los `k` vecinos más cercanos a un punto de prueba y clasifica el punto en función de la mayoría de las clases presentes entre esos vecinos.
 
-![[Pasted image 20241003140433.png]]
+![alt text](<res/Pasted image 20241003140433.png>)
 
 ### 1. Preprocesamiento de Datos
 
@@ -84,7 +85,8 @@ Los hiperparámetros son cruciales para el rendimiento del modelo KNN. Los princ
 
 Se utilizó una **validación cruzada** para evaluar el rendimiento del modelo y asegurar que no estuviera sobreajustado a los datos de entrenamiento. El conjunto de datos fue dividido en **80% para entrenamiento** y **20% para prueba**.
 
-![[Pasted image 20241003135826.png]]
+![alt text](<res/Pasted image 20241003135826.png>)
+
 ## Resultados
 
 El rendimiento del modelo fue evaluado utilizando varias métricas, que se describen a continuación:
@@ -93,7 +95,8 @@ El rendimiento del modelo fue evaluado utilizando varias métricas, que se descr
 
 El modelo KNN alcanzó una precisión global del **94%**, lo que indica que el 94% de las predicciones fueron correctas.
 
-![[Pasted image 20241003135042.png]]
+
+![alt text](<res/Pasted image 20241003135042.png>)
 
 ### 2. F1-Score
 
@@ -103,12 +106,13 @@ El **F1-Score** promedio para las tres clases fue de **0.93**, lo que indica un 
 
 La **matriz de confusión** permite observar los errores cometidos por el modelo. A continuación se presenta la matriz de confusión visualizada como un mapa de calor:
 
-![[Pasted image 20241003134946.png]]
+![alt text](<res/Pasted image 20241003134946.png>)
 
 Como se puede observar, el modelo confundió algunas muestras de _Iris-versicolor_ con _Iris-virginica_, lo que sugiere que estas dos especies son más difíciles de separar.
 ## Análisis de los Resultados Obtenidos
 
-![[Pasted image 20241003140311.png]]
+![alt text](<res/Pasted image 20241003140311.png>)
+
 
 El modelo KNN se desempeñó extremadamente bien con una precisión del 94%, lo que refleja que la mayoría de las muestras fueron clasificadas correctamente. Sin embargo, el pequeño número de errores entre _Iris-versicolor_ e _Iris-virginica_ puede deberse a la similitud entre estas dos especies en cuanto a sus características morfológicas.
 
