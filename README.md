@@ -56,8 +56,9 @@ Una vez activado el entorno virtual (si es que lo creaste), instala las dependen
 
 ```bash
 pip install -r requirements.txt
-Ejecutar el Proyecto
 ```
+
+## Ejecutar el Proyecto
 
 Una vez instaladas todas las dependencias, puedes abrir el archivo Jupyter Notebook y ejecutar el código
 
