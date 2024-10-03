@@ -1,6 +1,6 @@
 # Clasificación del Conjunto de Datos Iris utilizando KNN
 
-## Imporatate
+## Importante
 > Dicho codigo utiliza la fuente de datos en google drive, para falicidad de trabajo en grupo se probo el codigo en google collab, y se comparte en el siguiente link:
 
 [Ejectuar Codigo en Google Collab](https://colab.research.google.com/drive/1o-_UP6qAockZVS1_GDxexTmO1LwEs43X?usp=sharing)
@@ -29,7 +29,8 @@ El proyecto incluye análisis exploratorio de datos, visualización, implementac
 
    Clona este repositorio en tu máquina local usando el siguiente comando:
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/pollog09/TareaML.git
+   ```
 
 2. **Crear un Entorno Virtual (Opcional pero Recomendado)**
 
