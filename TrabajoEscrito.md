@@ -132,3 +132,24 @@ El modelo KNN se desempeñó extremadamente bien con una precisión del 94%, lo 
 1. Se sugiere probar con otros algoritmos de clasificación como **Support Vector Machines (SVM)** o **Random Forest** para comparar resultados y posiblemente mejorar la clasificación.
 2. Podría explorarse la reducción de dimensionalidad con técnicas como **PCA** para visualizar mejor la separación entre las especies y reducir el ruido en los datos.
 3. Un mayor ajuste de hiperparámetros o incluso el uso de métodos de **búsqueda de hiperparámetros automáticos** como **Grid Search** podría aumentar el rendimiento del modelo.
+
+## Referencias Bibliográficas
+- IBM. (2024, octubre 3). What is the k-nearest neighbors (KNN) algorithm? IBM. https://www.ibm.com/mx-es/topics/knn
+- Scikit-learn. (2024). Scikit-learn: Machine learning in Python. https://scikit-learn.org/stable/
+- Educative. (2024). KNeighborsClassifier in scikit-learn. Educative.io. https://www.educative.io/answers/kneighborsclassifier-in-scikit-learn
+- Han, J., Pei, J., & Kamber, M. (2011). Data Mining: Concepts and Techniques (3rd ed.). Morgan Kaufmann.
+- Shalev-Shwartz, S., & Ben-David, S. (2014). Understanding Machine Learning: From Theory to Algorithms. Cambridge University Press.
+
+## Rubrica de Evaluacion
+
+| **Criterios**                                              | **Puntuación máxima** | **Puntuación obtenida** |
+|------------------------------------------------------------|-----------------------|-------------------------|
+| **Descarga y lectura del dataset**                         | 10                    |                         |
+| **Análisis de características**                            | 20                    |                         |
+| **Implementación de KNN y experimentación de parámetros**  | 30                    |                         |
+| **Evaluación del modelo con las métricas recomendadas**    | 15                    |                         |
+| **Presentación de los resultados**                         | 15                    |                         |
+| **Estructura y claridad del informe**                      | 10                    |                         |
+| **Puntos extra (reflexión)**                               | 5                     |                         |
+
+ 

@@ -38,17 +38,17 @@ El proyecto incluye análisis exploratorio de datos, visualización, implementac
 
     En Windows:
 
-    ```bash
-    python -m venv env
-    env\Scripts\activate
-    ```
+        ```bash
+        python -m venv env
+        env\Scripts\activate
+        ```
 
     En macOS/Linux:
 
-```bash
-python3 -m venv env
-source env/bin/activate
-```
+        ```bash
+        python3 -m venv env
+        source env/bin/activate
+        ```
 
 3. **Instalar las Dependencias**
 
