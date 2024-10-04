@@ -125,7 +125,7 @@ El modelo KNN se desempeñó extremadamente bien con una precisión del 94%, lo 
 
 1. El modelo KNN es altamente efectivo para la clasificación del conjunto de datos Iris, logrando una precisión del 94%.
 2. Las características relacionadas con los pétalos son las más influyentes para la clasificación, mientras que las características del sépalo aportan menos información discriminatoria.
-3. Los errores de clasificación ocurren principalmente entre _Iris-versicolor_ e _Iris-virginica_, debido a su similitud en las características morfológicas.
+3. Los errores de clasificación ocurren principalmente entre _Iris-versicolor_ e _Iris-virginica_, debido a su similitud.
 
 ### Recomendaciones
 
